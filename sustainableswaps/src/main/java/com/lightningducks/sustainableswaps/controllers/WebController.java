@@ -89,7 +89,7 @@ public class WebController {
     @GetMapping(value = "/A3/alysia", produces = MediaType.TEXT_HTML_VALUE)
     @ResponseBody
     public String alysiaA3(){
-        String text = "<html><body> Alysia's A3! :) </body></html>";
+        String text = "<html><body style = 'background-color:black;'><h1 style = 'background-color:lightblue; text-align:center; text-shadow: 2px 1px white;'>Alysia's A3! :)</h1></body></html>";
         return text;
     }
 }
