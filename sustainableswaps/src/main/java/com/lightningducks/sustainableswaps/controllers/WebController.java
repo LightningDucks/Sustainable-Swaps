@@ -84,4 +84,12 @@ public class WebController {
         String text = "<html><head><title>Hi this is Kimberly!</title><body><p>Hello this is my A3</p></body></head></html>";
         return text;
     }
+
+    //Alysia's A3
+    @GetMapping(value = "/A3/alysia", produces = MediaType.TEXT_HTML_VALUE)
+    @ResponseBody
+    public String alysiaA3(){
+        String text = "<html><body> Alysia's A3! :) </body></html>";
+        return text;
+    }
 }
