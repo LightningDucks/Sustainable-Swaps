@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.apache.commons.io.IOCase;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -90,6 +91,17 @@ public class WebController {
     @ResponseBody
     public String alysiaA3(){
         String text = "<html><body style = 'background-color:black;'><h1 style = 'background-color:lightblue; text-align:center; text-shadow: 2px 1px white;'>Alysia's A3! :)</h1></body></html>";
+        return text;
+    }
+
+    //Alysia's A4
+    @GetMapping(value = "/A4/alysia", produces = MediaType.TEXT_HTML_VALUE)
+    @ResponseBody
+    public String alysiaA4(){
+        String string1 = "WELCOME TO ALYSIA'S A4 FOR SOFTWARE ENGINEERING";
+        String output1 =  string1 + " (case sensitive -- ending in 'engineering'?): " + IOCase.SENSITIVE.checkEndsWith(string1, "engineering");
+        String output2 =  string1 + " (case insensitive -- ending in 'engineering'?): " + IOCase.INSENSITIVE.checkEndsWith(string1, "engineering");
+        String text = "<html><body><h1 style = text-align:center;'> Alysia's A4! </h1><br>Testing Apache Commons IO...<br></body></html>" + output1 + "<br>" +output2;
         return text;
     }
 }
