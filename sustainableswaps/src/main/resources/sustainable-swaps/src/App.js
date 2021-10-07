@@ -24,11 +24,7 @@ function App() {
 
         <Carousel>
           <Carousel.Item>
-<<<<<<< HEAD
             <img className="d-block w-100" src={Teal} alt=""/>
-=======
-            <img className="d-block w-100" src={Teal}/>
->>>>>>> 6d3e9bc270217c07408570000d8f5a98c68b5188
 
             <Carousel.Caption className="sustainable-company">
               <h3>Sustainable Company 1</h3>
@@ -36,11 +32,7 @@ function App() {
           </Carousel.Item>
           
           <Carousel.Item>
-<<<<<<< HEAD
             <img className="d-block w-100" src={Teal} alt=""/>
-=======
-            <img className="d-block w-100" src={Teal}/>
->>>>>>> 6d3e9bc270217c07408570000d8f5a98c68b5188
 
             <Carousel.Caption className="sustainable-company">
               <h3>Sustainable Company 2</h3>
@@ -48,11 +40,7 @@ function App() {
           </Carousel.Item>
 
           <Carousel.Item>
-<<<<<<< HEAD
             <img className="d-block w-100" src={Teal} alt=""/>
-=======
-            <img className="d-block w-100" src={Teal}/>
->>>>>>> 6d3e9bc270217c07408570000d8f5a98c68b5188
 
             <Carousel.Caption className="sustainable-company">
               <h3>Sustainable Company 3</h3>
@@ -60,11 +48,7 @@ function App() {
           </Carousel.Item>
 
           <Carousel.Item>
-<<<<<<< HEAD
             <img className="d-block w-100" src={Teal} alt=""/>
-=======
-            <img className="d-block w-100" src={Teal}/>
->>>>>>> 6d3e9bc270217c07408570000d8f5a98c68b5188
 
             <Carousel.Caption className="sustainable-company">
               <h3>Sustainable Company 4</h3>
@@ -72,11 +56,7 @@ function App() {
           </Carousel.Item>
 
           <Carousel.Item>
-<<<<<<< HEAD
             <img className="d-block w-100" src={Teal} alt=""/>
-=======
-            <img className="d-block w-100" src={Teal}/>
->>>>>>> 6d3e9bc270217c07408570000d8f5a98c68b5188
 
             <Carousel.Caption className="sustainable-company">
               <h3>Sustainable Company 5</h3>
