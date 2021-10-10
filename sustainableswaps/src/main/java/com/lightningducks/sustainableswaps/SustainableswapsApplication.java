@@ -10,4 +10,7 @@ public class SustainableswapsApplication {
 		SpringApplication.run(SustainableswapsApplication.class, args);
 	}
 
+	public static double squareRoot (double a) {
+		return Math.sqrt(a);
+	}
 }
