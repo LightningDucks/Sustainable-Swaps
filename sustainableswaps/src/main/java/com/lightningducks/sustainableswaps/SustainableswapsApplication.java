@@ -10,4 +10,15 @@ public class SustainableswapsApplication {
 		SpringApplication.run(SustainableswapsApplication.class, args);
 	}
 
+	//Alysia's A6
+	public static int findMax(int arr[]){
+		int maximum = arr[0];
+
+		//Parse through given array
+		for (int i = 1 ; i < arr.length ; i++){
+			if (maximum < arr[i])
+				maximum = arr[i];
+		}
+		return maximum;
+	}
 }
